@@ -1,0 +1,23 @@
+html {
+  height: 100%;
+  width: 100%;
+  }
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.7); /* Cor preta com 70% de opacidade */
+    padding: 5px; /* Espaçamento interno */
+    border-radius: 5px; /* Borda arredondada */
+    color: white; /* Cor do texto */
+  max-width: 800px;
+  margin: 0 auto; /* Para centralizar o carrossel na página */
+}
+
+.container {
+  text-align: center; /* Alinha as imagens no centro */
+}
+
+.imagem-legenda {
+  display: inline-block; /* faz com que cada div ocupe apenas o espaço necessário */
+  margin-right: 10px; /* margem direita para separar as imagens */
+  text-align: center; /* alinha o texto (a legenda) ao centro */
+}
